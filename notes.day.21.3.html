@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let a = [3,5,6,8];
+        console.log(a[0]);
+        console.log(a[1]);
+        console.log(a[2]);
+        console.log(a[3]);
+        for(let i=0;i<a.length;i++){
+            console.log(`a[${i}] = ${a[i]}`);
+        }
+        result: console.log(`a[${i}] = ${a[i]}`) 
+        lần lượt thay a[${i}] = 0 ,1,2,3
+                        ${a[i]} = 3 ,5,6,8
+                        ==> `a[${0}] = ${a[3]}
+                        ==> `a[${1}] = ${a[5]}
+                        ==> `a[${2}] = ${a[6]}
+                        ==> `a[${3}] = ${a[8]}
+    </script> -->
+
+    <!-- 
+    <script>
+        let a = [3, 5, 6, 8];
+        let sum = 0;
+        for (let i = 0; i < a.length; i++) {
+            sum += a[i];
+        }
+        console.log(sum);
+    </script>
+
+    result : sum = 22 [3+5+6+8] -->
+
+
+    <!-- <script>
+         let a = [3, 5, 6, 8, 8, 1];
+        let sum = 0;
+        for (let i = 1; i <= 3; i++) {
+            sum += a[a.length-i];
+        }
+        console.log(sum)
+    </script>
+
+    result = 17 [8+8+1] -->
+
+    <!-- <script>
+        let a = [3, 3, 6, 8, 1];
+        let max = a[0];
+        for(let i=0;i<a.length;i++){
+            if(a[i]>max){
+                max = a[i];
+            }
+        }
+        console.log(max);
+
+        result = 8
+    </script> -->
+    <!-- 
+    <script>
+        let a = [3, 6, 8, 1];
+        let max = a[0];
+        let index = 0;
+        for(let i=0;i<a.length;i++){
+            if(a[i]>max){
+                max = a[i];
+                index = i;
+            }
+        }
+        console.log(`Giá trị lớn nhất: ${max} vị trí: ${index}`);
+    </script>
+
+    result: max = 8 ở vị trí a[2] -->
+
+
+    <!-- <script>
+        let a = [3, 6, 8, 1];
+        for (i = 0; i < a.length / 2; i++) {
+            let temp = a[i];
+            a[i] = a[a.length - 1 - i];
+            a[a.length - 1 - i] = temp;
+        }
+        
+        result : i = 0 => a[i] = a[3]
+                        a[3] = temp
+                i = 1 => a[i] = a[2]
+                        a[2] = temp
+
+
+    </script> -->
+
+    <script>
+         let arr = [
+            [2,1,7,5],
+            [1,1,3,3],
+            [2,2,1,8],
+            [2,5,1,6]
+        ];
+        let str = "";
+        for(let i=0;i<arr.length;i++){
+            for(let j=0;j<arr[i].length;j++){
+                str += arr[i][j];
+            }
+            str += "\n";
+        }
+        console.log(str);
+    </script>
+
+
+</body>
+
+</html>

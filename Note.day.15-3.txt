@@ -1,0 +1,44 @@
+
+Notes ngày 15-3-2023
+Bài 7 : Câu lệnh lặp
+
++ Từ Khóa continue là 1 câu lệnh dùng đê nhảy qua 1 khối lệnh và bắt đầu dòng tiếp theo.Khi gặp lệnh này trong các vòng lặp, chương trình sẽ bỏ qua
+phần còn lại trong vòng lặp và tiếp tục thực hiện lần lặp tiếp theo.
+
+
+2. vòng lặp for:
+Cú pháp:
+for (lệnh khởi động vòng lặp đầu tiên; điều kiện tiếp diễn; lệnh kết thúc mỗi vòng lặp) {
+    // các đoạn mã được thực hiện lặp
+}
+- lệnh khởi động vòng lặp đầu tiên là câu lệnh được thực thi 1 lần ngay thời điểm vòng lặp bắt đầu. sử dụng câu lệnh này để khởi tạo giá trị cho các biến.
+- điều kiện tiếp diễn là điều kiện để thực thi vòng lặp.điều kiện này đúng thì mã bên trong vòng lặp mới được thực hiện. điều kiện sai thì vòng lặp sẽ kết thúc.
+- lệnh kết thúc mỗi vòng lặp là câu lệnh được thực hiện sau mỗi lần lặp
+3. vòng lặp while:
+Vòng lặp while thực thi lặp lại một khối lệnh
+nếu biểu thức điều kiện trả về giá trị đúng
+
+Cú pháp:
+while (điều kiện tiếp diễn) {
+    // đoạn mã được thực thi lặp đi lặp lại
+}
+- điều kiện tiếp diễn là điều kiện của vòng lặp.điều kiện đúng thì đoạn mã bên trong thân vòng lặp sẽ được thực thi.điều kiện sai thì vòng lặp sẽ kết thúc.
+4. Vòng lặp do-while
+Cú pháp:
+do {
+    // mã lặp
+}
+while (điều kiện tiếp diễn);
+- là điều kiện của vòng lặp.điều kiện này đúng thì vòng lặp tiếp tục thực thi.điều kiện này sai thì vòng lặp kết thúc.
+•Điểm khác biệt giữa while và do-while: Thân
+của vòng lặp do-while được thực hiện ít nhất là
+một lần. Kể cả khi biểu thức điều kiện trả về
+sai
+
+
+
+
+
+
+
+

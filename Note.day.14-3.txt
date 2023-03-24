@@ -1,0 +1,84 @@
+Tuần 3
+Bài 6 : Cấu trúc điều kiện
+
+Phần 1: Câu lệnh Switch-Case
+
+switch (months) {
+    case 1:
+    case 3:
+    case 10:
+    case 12:
+        console.log("Tháng có 31 ngày");
+        break;
+    case 7:
+        console.log("Tháng có 31 ngày");
+        break;
+default:
+DK mà đúng thì khối lệnh trong if được thực thi
+if(DK){
+	Khối lệnh
+}
++ Trong đó :
+_Break: thoát khỏi swith case
+_Nếu không có break thì rớt xuống case tiếp theo
+_default: nếu không thỏa mãn case nào thì khối lệnh mặc định sẽ đc thực thi
+
++ Biểu thức điều kiện:
+• Biểu thức điều kiện đánh giá một biểu thức dựa vào một điều kiện
+cho trước
+• Biểu thức điều kiện là một toán tử 3 ngôi
+• Cú pháp:
+            condition ? expression_true_case : expression_false_case
+     trong đo :
+               Trong đó:
+• condition: biểu thức điều kiện dùng để đánh giá
+• expression_true_case : biểu thức sẽ được sử dụng trong trường hợp true
+• expression_false_case : biểu thức sẽ được sử dụng trong trường hợp false
+
+
+Phần 2 : Câu lệnh iF-Else
+
++ Câu lênh IF-ELse gồm 3 dạng
+• if-else
+• if-else lồng nhau
+• if-else bậc thang
+
+vd: Tính điểm trung bình học sinh theo các loại:
++ 8<= ĐTB <=10 : Giỏi
+  5<= ĐTB <=8  : Khá
+  0<= ĐTB <=   : TB
+  ĐTB = 10
+• if-else :
+
+if(DTB>=8 && DTB<=10){
+ console.log( ' Giỏi ');
+} 
+If(DTB>=5 && DTB<=8){
+ console.log('Khá')
+}
+If(DTB>=0 && DTB<=5){
+ console.log('TB')
+}
+
+• if-else lồng nhau
+If(DTB>=8 && DTB<=10){
+  console.log( ' Giỏi ');
+}Else{
+ If(DTB>=5 && DTB<=8){
+ console.log('Khá')
+}Else{
+ console.log('TB');
+}
+}
+
+• if-else bậc thang
+If(DTB>=8 && DTB<=10){
+ console.log( ' Giỏi ');
+}Else if {
+ console.log('Khá');
+}Else if {
+ console.log('TB');
+}
+}
+
+
